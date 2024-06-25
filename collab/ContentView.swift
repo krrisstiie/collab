@@ -10,8 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            LinearGradient(gradient: Gradient(colors: [Color.blue, Color.purple]),
-            startPoint: .topLeading, endPoint: .bottomTrailing)
+            LinearGradient(gradient: Gradient(colors: [Color("SpaceBlue"), Color("Orange")]),
+                           startPoint: .topLeading, endPoint: .bottomLeading)
             .ignoresSafeArea(.all, edges: .all)
             VStack {
                 Image("Katpng")
@@ -19,7 +19,7 @@ struct ContentView: View {
                     .frame(width: /*@START_MENU_TOKEN@*/160.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/130.0/*@END_MENU_TOKEN@*/)
                     .foregroundStyle(.tint)
                 Text("EMEOWTION")
-                    .font(.title)
+                    .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
