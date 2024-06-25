@@ -10,10 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
+            Image("Katpng")
+                .resizable(resizingMode: .stretch)
+                .frame(width: /*@START_MENU_TOKEN@*/160.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/130.0/*@END_MENU_TOKEN@*/)
                 .foregroundStyle(.tint)
-            Text("Hello, world! I'm Kristie and you're Hazel! 🩷")
+            Text("EMEOWTION")
+                .font(.title)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
         }
