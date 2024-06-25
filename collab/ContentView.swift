@@ -14,6 +14,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world! I'm Kristie and you're Hazel! 🩷")
+                .fontWeight(.bold)
+                .multilineTextAlignment(.center)
         }
         .padding()
     }
