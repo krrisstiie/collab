@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0F79EA2C2CBF150046D86A /* prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0F79E92C2CBF150046D86A /* prompt.swift */; };
+		BD0F79EC2C2CBF4D0046D86A /* freeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0F79EB2C2CBF4D0046D86A /* freeResponse.swift */; };
+		BD0F79EE2C2CBFA30046D86A /* journaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0F79ED2C2CBFA30046D86A /* journaling.swift */; };
 		BD8BDFAF2C2CA250008927E9 /* DailyCheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BDFAE2C2CA250008927E9 /* DailyCheckIn.swift */; };
 		BDAB1D2B2C2B2FD8002A21B7 /* collabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB1D2A2C2B2FD8002A21B7 /* collabApp.swift */; };
 		BDAB1D2D2C2B2FD8002A21B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB1D2C2C2B2FD8002A21B7 /* ContentView.swift */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD0F79E92C2CBF150046D86A /* prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prompt.swift; sourceTree = "<group>"; };
+		BD0F79EB2C2CBF4D0046D86A /* freeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freeResponse.swift; sourceTree = "<group>"; };
+		BD0F79ED2C2CBFA30046D86A /* journaling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journaling.swift; sourceTree = "<group>"; };
 		BD87DF762C2C73E6005A95F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BD8BDFAE2C2CA250008927E9 /* DailyCheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckIn.swift; sourceTree = "<group>"; };
 		BDAB1D272C2B2FD8002A21B7 /* collab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collab.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +63,9 @@
 				BD87DF762C2C73E6005A95F0 /* Info.plist */,
 				BDAB1D2A2C2B2FD8002A21B7 /* collabApp.swift */,
 				BDAB1D2C2C2B2FD8002A21B7 /* ContentView.swift */,
+				BD0F79ED2C2CBFA30046D86A /* journaling.swift */,
+				BD0F79E92C2CBF150046D86A /* prompt.swift */,
+				BD0F79EB2C2CBF4D0046D86A /* freeResponse.swift */,
 				BD8BDFAE2C2CA250008927E9 /* DailyCheckIn.swift */,
 				BDAB1D2E2C2B2FD9002A21B7 /* Assets.xcassets */,
 				BDAB1D302C2B2FD9002A21B7 /* Preview Content */,
@@ -143,7 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDAB1D2D2C2B2FD8002A21B7 /* ContentView.swift in Sources */,
+				BD0F79EA2C2CBF150046D86A /* prompt.swift in Sources */,
+				BD0F79EE2C2CBFA30046D86A /* journaling.swift in Sources */,
 				BDAB1D2B2C2B2FD8002A21B7 /* collabApp.swift in Sources */,
+				BD0F79EC2C2CBF4D0046D86A /* freeResponse.swift in Sources */,
 				BD8BDFAF2C2CA250008927E9 /* DailyCheckIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
