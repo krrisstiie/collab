@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD8BDFAF2C2CA250008927E9 /* DailyCheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BDFAE2C2CA250008927E9 /* DailyCheckIn.swift */; };
 		BDAB1D2B2C2B2FD8002A21B7 /* collabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB1D2A2C2B2FD8002A21B7 /* collabApp.swift */; };
 		BDAB1D2D2C2B2FD8002A21B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB1D2C2C2B2FD8002A21B7 /* ContentView.swift */; };
 		BDAB1D2F2C2B2FD9002A21B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAB1D2E2C2B2FD9002A21B7 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD87DF762C2C73E6005A95F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BD8BDFAE2C2CA250008927E9 /* DailyCheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckIn.swift; sourceTree = "<group>"; };
 		BDAB1D272C2B2FD8002A21B7 /* collab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAB1D2A2C2B2FD8002A21B7 /* collabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collabApp.swift; sourceTree = "<group>"; };
 		BDAB1D2C2C2B2FD8002A21B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +54,10 @@
 		BDAB1D292C2B2FD8002A21B7 /* collab */ = {
 			isa = PBXGroup;
 			children = (
+				BD87DF762C2C73E6005A95F0 /* Info.plist */,
 				BDAB1D2A2C2B2FD8002A21B7 /* collabApp.swift */,
 				BDAB1D2C2C2B2FD8002A21B7 /* ContentView.swift */,
+				BD8BDFAE2C2CA250008927E9 /* DailyCheckIn.swift */,
 				BDAB1D2E2C2B2FD9002A21B7 /* Assets.xcassets */,
 				BDAB1D302C2B2FD9002A21B7 /* Preview Content */,
 			);
@@ -139,6 +144,7 @@
 			files = (
 				BDAB1D2D2C2B2FD8002A21B7 /* ContentView.swift in Sources */,
 				BDAB1D2B2C2B2FD8002A21B7 /* collabApp.swift in Sources */,
+				BD8BDFAF2C2CA250008927E9 /* DailyCheckIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +280,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"collab/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = collab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,9 +308,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"collab/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = collab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
