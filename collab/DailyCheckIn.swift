@@ -20,6 +20,11 @@ struct DailyCheckIn: View {
                 .opacity(0.4)
             
             VStack {
+                Text("How are you feeling today?")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.white)
+                    .multilineTextAlignment(.center)
                 HStack {
                     Image("Joy Emotion")
                         .resizable()

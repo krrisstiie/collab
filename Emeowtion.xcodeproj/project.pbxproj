@@ -15,6 +15,7 @@
 		BDAB1D2D2C2B2FD8002A21B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB1D2C2C2B2FD8002A21B7 /* ContentView.swift */; };
 		BDAB1D2F2C2B2FD9002A21B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAB1D2E2C2B2FD9002A21B7 /* Assets.xcassets */; };
 		BDAB1D322C2B2FD9002A21B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAB1D312C2B2FD9002A21B7 /* Preview Assets.xcassets */; };
+		BDD076C62C2CC5F700B7A745 /* CheckInQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD076C52C2CC5F700B7A745 /* CheckInQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BDAB1D2C2C2B2FD8002A21B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDAB1D2E2C2B2FD9002A21B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDAB1D312C2B2FD9002A21B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDD076C52C2CC5F700B7A745 /* CheckInQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BD87DF762C2C73E6005A95F0 /* Info.plist */,
 				BDAB1D2A2C2B2FD8002A21B7 /* collabApp.swift */,
 				BDAB1D2C2C2B2FD8002A21B7 /* ContentView.swift */,
+				BDD076C52C2CC5F700B7A745 /* CheckInQuestion.swift */,
 				BD0F79ED2C2CBFA30046D86A /* journaling.swift */,
 				BD0F79E92C2CBF150046D86A /* prompt.swift */,
 				BD0F79EB2C2CBF4D0046D86A /* freeResponse.swift */,
@@ -155,6 +158,7 @@
 				BD0F79EA2C2CBF150046D86A /* prompt.swift in Sources */,
 				BD0F79EE2C2CBFA30046D86A /* journaling.swift in Sources */,
 				BDAB1D2B2C2B2FD8002A21B7 /* collabApp.swift in Sources */,
+				BDD076C62C2CC5F700B7A745 /* CheckInQuestion.swift in Sources */,
 				BD0F79EC2C2CBF4D0046D86A /* freeResponse.swift in Sources */,
 				BD8BDFAF2C2CA250008927E9 /* DailyCheckIn.swift in Sources */,
 			);
