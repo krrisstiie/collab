@@ -17,7 +17,32 @@ struct DailyCheckIn: View {
                 .resizable()
                 .scaledToFill()
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                .opacity(0.5)
+                .opacity(0.4)
+            
+            VStack {
+                HStack {
+                    Image("Joy Emotion")
+                        .resizable()
+                        .frame(width: 150.0, height: 210.0)
+                    Image("Sadness Emotion")
+                        .resizable()
+                        .frame(width: 150.0, height: 210.0)
+
+                }
+                Image("Stress Emotion")
+                    .resizable()
+                    .frame(width: 150.0, height: 210.0)
+                
+                HStack {
+                    Image("Fear Emotion")
+                        .resizable()
+                        .frame(width: 150.0, height: 210.0)
+                    Image("Anger Emotion")
+                        .resizable()
+                        .frame(width: 150.0, height: 210.0)
+                }
+            }
+                
             
         }
     }
