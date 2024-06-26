@@ -14,7 +14,7 @@ struct ContentView: View {
                            startPoint: .topLeading, endPoint: .bottomLeading)
             .ignoresSafeArea(.all, edges: .all)
             VStack {
-                Image("Katpng")
+                Image("Kat head")
                     .resizable(resizingMode: .stretch)
                     .frame(width: /*@START_MENU_TOKEN@*/160.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/130.0/*@END_MENU_TOKEN@*/)
                     .foregroundStyle(.tint)
