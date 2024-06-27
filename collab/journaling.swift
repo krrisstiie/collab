@@ -9,8 +9,8 @@ import SwiftUI
 
 struct journaling: View {
     var body: some View {
-
-            NavigationStack{
+        Image("Stars")
+        NavigationStack{
                 ZStack {
                     VStack {
                         Text("Journal")
