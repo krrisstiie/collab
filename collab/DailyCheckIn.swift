@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct DailyCheckIn: View {
+    func stressChosen(){
+        print("Stress chosen")
+    }
     @State private var showQuestion = false
     var body: some View {
         ZStack {
@@ -35,9 +38,17 @@ struct DailyCheckIn: View {
                         .frame(width: 150.0, height: 210.0)
 
                 }
-                Image("Stress Emotion")
-                    .resizable()
-                    .frame(width: 150.0, height: 210.0)
+                
+                Button(action:{
+                    withAnimation {
+                        stressChosen()
+                        self.showQuestion = true
+                    }
+                }) {
+                    Image("Stress Emotion")
+                        .resizable()
+                        .frame(width: 150.0, height: 210.0)
+                }
                 
                 HStack {
                     Image("Fear Emotion")
@@ -48,7 +59,9 @@ struct DailyCheckIn: View {
                         .frame(width: 150.0, height: 210.0)
                 }
             }
-                
+            if showQuestion {
+                CheckInQuestion()
+            }
             
         }
     }

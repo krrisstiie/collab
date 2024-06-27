@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct CheckInQuestion: View {
+    @Bindable var questionAnswer: QuestionAnswer
+    @Environment(\.modelContext) var modelContext
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [Color("Orange"), Color("White")]),
@@ -46,6 +48,10 @@ struct CheckInQuestion: View {
                 
             }
         }
+    }
+    func answerQuestion() {
+        let addAnswer = QuestionAnswer(title: questionAnswer.title)
+        modelContext.insert(addAnswer)
     }
 }
 
