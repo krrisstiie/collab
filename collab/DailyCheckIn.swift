@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DailyCheckIn: View {
+    @State private var showQuestion = false
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [Color("LightBlue"), Color("OrangeCream")]),
